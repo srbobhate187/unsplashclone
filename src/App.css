@@ -1,0 +1,27 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh;
+  
+}
+.round {
+  border-radius: 25px;
+  width: 200px;
+  height: 30px;
+  float: left;
+  box-shadow: 10px 10px rgb(218, 212, 212);
+}
+button{
+  float: left;
+  margin: 10px;
+
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.pics{
+  width:45%;
+  margin: 0.5rem;
+}
